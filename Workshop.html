@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>404 Not Found</title>
+        <style type="text/css">
+            body{
+                font-family: Tahoma;
+                color: #666666;
+            }
+            ul{
+                list-style-image: url("images/icon-plus.png");
+            }
+            table{
+                border: 1px solid white;
+                border-radius: 5px;
+                text-align: center;
+                padding: 0px;
+                border-collapse: inherit;
+            }
+            tr, th{
+            }
+            thead{
+                background-color: #8fb3d5;
+                color: white;
+                text-shadow: black 1px;
+            }
+            tbody{
+                background-color: #e7eff4;
+                color: #666666;
+            }
+            .workshop{
+                width: auto;
+            }
+            legend{
+                font-style: italic;
+
+            }
+            fieldset{
+                border: 1px solid lightgray;
+                border-radius: 4px;
+            }
+            .button{
+                border: 1px solid black;
+                border-radius: 3px;
+                background-color: #119966;
+                color: white;
+                float: right;
+                margin-right: 500px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Poetry Workshops</h1>
+        <p>We will be conducting a number of poetry workshops and symposiums throughout the year.</p>
+        <p>Please note that the following events are free to members</p>
+        <ul>
+            <li>A Poetic Perspective</li>
+            <li>Walt Whitman at War</li>
+            <li>Found Poems and Outsider Poetry</li>
+        </ul>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th class="workshop"></th>
+                    <th>New York</th>
+                    <th>Chicago</th>
+                    <th>San Francisco</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="workshop">A Poetic Perspective</td>
+                    <td>Sat, 4 Feb 2012 11am - 2pm</td>
+                    <td>Sat, 3 Mar 2012 11am - 2pm</td>
+                    <td>Sat, 17 Mar 2012 11am - 2pm</td>
+                </tr>
+                <tr>
+                    <td class="workshop">Walt Whitman at War</td>
+                    <td>Sat, 7 Apr 2012 11am - 1pm</td>
+                    <td>Sat, 5 May 2012 11am - 1pm</td>
+                    <td>Sat, 19 May 2012 11am - 1pm</td>
+                </tr>
+                <tr>
+                    <td class="workshop">Found Poems & Outsider Poetry</td>
+                    <td>Sat, 9 Jun 2012 11am - 2pm</td>
+                    <td>Sat, 7 Jul 2012 11am - 2pm</td>
+                    <td>Sat, 21 Jul 2012 11am - 2pm</td>
+                </tr>
+                <tr>
+                    <td class="workshop">Natural Death: An Exproration</td>
+                    <td>Sat, 4 Aug 2012 11am - 4pm</td>
+                    <td>Sat, 8 Sep 2012 11am - 4pm</td>
+                    <td>Sat, 15 Sep 2012 11am - 4pm</td>
+                </tr>
+            </tbody>
+        </table>
+        <fieldset>
+            <legend>Register your interest</legend>
+            <label for="name">Your name:</>
+            <input type="text">
+            <br>
+            <label for="mail">Your email:</label>
+            <input type="email">
+            <br>
+            <label for="center">Your closest center:</label>
+            <select name="center">
+                <option value="newyork">New York</option>
+                <option value="chicago">Chicago</option>
+                <option value="sanfrancisco">San Francisco</option>
+            </select>
+            <br>
+                <label for="member">Are you a member?</label>
+                <input type="checkbox" name="choice" value="yes" checked="checked"> Yes
+                <input type="checkbox" name="choice" value="no"> No
+        </fieldset>
+        <input class="button" type="button" value="Register">
+    </body>
+</html>

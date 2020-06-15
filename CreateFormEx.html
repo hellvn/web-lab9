@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>404 Notfound</title>
+        <style type="text/css">
+            div{
+                border: 2px solid black;
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <div align="center">
+            <form action="login.txt">
+                <fieldset>
+                    <legend>Your Detail</legend>
+                    <label for="username">Username:</label>
+                    <input type="text" name="username" size="15" maxlength="30">
+                    <br>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" size="15" maxlength="30">
+                </fieldset>
+                <fieldset >
+                    <legend>Your Review</legend>
+                    <p>How did you hear about us?</p>
+                    <select name="known">
+                        <option value="google">Google</option>
+                        <option value="yahoo">Yahoo</option>
+                        <option value="n/a">N/A</option>
+                    </select>
+                    <p>Would you visit again?</p>
+                    <input type="checkbox" name="choice" value="yes"> Yes
+                    <input type="checkbox" name="choice" value="no"> No
+                    <input type="checkbox" name="choice" value="maybe"> Maybe
+                    <p>Comments:</p>
+                    <textarea name="comments" id="" cols="50" rows="5"></textarea>
+                    <br>
+                    <input type="checkbox" name="sign" value="value"> Sign me up for email updates
+                    <br>
+                    <input type="submit" name="sign" value="Submit">
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

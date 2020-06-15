@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>404 Not Found</title>
+        <style type="text/css">
+            body{
+                font-family: Arial, Verdana, sans-serif;
+                font-size: 20px;
+                color: #665443;
+            }
+            fieldset{
+                border: 1px solid #808080;
+                border-radius: 4px;
+                margin: 0 200px 0  200px;
+            }
+            legend{
+                border: 1px solid #808080;
+                border-radius: 4px;
+                text-transform: uppercase;
+                background-color: #eeeeee;
+            }
+            input{
+                border: dotted 1px saddlebrown;
+
+            }
+            #button{
+                background-color: #665443;
+                text-transform: uppercase;
+                color: white;
+                border-radius: 4px;
+                float: right;
+                padding-right: 30px;
+                padding-left: 30px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                margin-right: 20px;
+                margin-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <form action="login.txt">
+                <fieldset>
+                    <legend>Newsletter</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" name="username" size="25" maxlength="30">
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" size="25" maxlength="30">
+                    <br>
+                    <input id="button" type="submit" name="submit" value="Subscribe">
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
