@@ -18,8 +18,13 @@
                 padding: 0px;
                 border-collapse: inherit;
             }
-            tr, th{
+            tr.head th{
+                color: #fff;
+                background-color: #90b4d6;
+                border-bottom: 2px  solid #547ca0;
+                border-right: 1px solid;
             }
+            tr
             thead{
                 background-color: #8fb3d5;
                 color: white;
@@ -32,21 +37,31 @@
             .workshop{
                 width: auto;
             }
+
+            fieldset{
+                width: 310px;
+                margin-top: 20px;
+                border: 1px solid #d6d6d6;
+                background-color: #ffffff;
+                line-height: 1.6em;
+            }
             legend{
                 font-style: italic;
+                color: #666666;
+            }
+            input[type="text"]{
 
             }
-            fieldset{
-                border: 1px solid lightgray;
-                border-radius: 4px;
-            }
-            .button{
+            input[type="submit"]{
                 border: 1px solid black;
-                border-radius: 3px;
+                border-radius: 5px;
                 background-color: #119966;
                 color: white;
-                float: right;
-                margin-right: 500px;
+               padding: 5px;
+                margin-top: 10px;
+            }
+            input[type="submit"]:hover{
+                border: 1px solid;
             }
         </style>
     </head>
